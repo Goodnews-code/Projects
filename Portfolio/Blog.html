@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="CSS/Blog_style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <a href="/index.html"><li>Home</li></a>
+          <a href="/Blog.html" class="blog"><li>Blog</li></a>
+          <a href="/work.html"><li>Works</li></a>
+          <a href="#contact"><li>Contact</li></a>
+        </ul>
+      </nav>
+
+      <span class="open-slide">
+        <a href="#" onclick="openSideMenu()">
+          <svg width="30" height="25">
+            <path d="M0,5 30,5" stroke="#21243d" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#21243d" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#21243d" stroke-width="5"/>
+          </svg>
+        </a>
+      </span>
+    </nav>
+
+    <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+      <a href="/index.html">Home</a>
+      <a href="/Blog.html">Blog</a>
+      <a href="/work.html">Works</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+
+      <div class="content">
+        <h1>Blog</h1>
+        <article class="article">
+          <h3>
+            UI Interactions of the week
+          </h3>
+          <h4>01 November 2024 &nbsp; &#124 &nbsp; <span>Express, Handlebars</span></h4>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+            Velit officia consequat duis enim velit mollit. 
+            Exercitation veniam consequat sunt nostrud amet.
+          </p>
+        </article>
+        <div style="width: 70%; border-bottom: 1px solid #E0E0E0;"></div>
+
+        <article class="article">
+          <h3>
+            UI Interactions of the week
+          </h3>
+          <h4>01 November 2024 &nbsp; &#124 &nbsp; <span>Express, Handlebars</span></h4>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+            Velit officia consequat duis enim velit mollit. 
+            Exercitation veniam consequat sunt nostrud amet.
+          </p>
+        </article>
+        <div style="width: 70%; border-bottom: 1px solid #E0E0E0;"></div>
+
+        <article class="article">
+          <h3>
+            UI Interactions of the week
+          </h3>
+          <h4>01 November 2024 &nbsp; &#124 &nbsp; <span>Express, Handlebars</span></h4>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+            Velit officia consequat duis enim velit mollit. 
+            Exercitation veniam consequat sunt nostrud amet.
+          </p>
+        </article>
+        <div style="width: 70%; border-bottom: 1px solid #E0E0E0;"></div>
+
+        <article class="article">
+          <h3>
+            UI Interactions of the week
+          </h3>
+          <h4>01 November 2024 &nbsp; &#124 &nbsp; <span>Express, Handlebars</span></h4>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+            Velit officia consequat duis enim velit mollit. 
+            Exercitation veniam consequat sunt nostrud amet.
+          </p>
+        </article>
+        <div style="width: 70%; border-bottom: 1px solid #E0E0E0;"></div>
+      </div>
+    </div>
+
+    <footer>
+      <div id="contact" class="footer">
+        <a href=""><img src="image/fb.png" alt="Facebook icon"></a>
+        <a href=""><img src="image/insta.png" alt="Instagram icon"></a>
+        <a href=""><img src="image/Group.png" alt="X icon"></a>
+        <a href=""><img src="image/Linkedin.png" alt="Linkedin icon"></a>
+      </div>
+      <p>Copyright &copy;2024 All rights reserved </p>
+    </footer>
+
+      <!-- JavaScript -->
+   <script>
+    function openSideMenu () {
+      document.getElementById('side-menu').style.width= '8rem';
+    }
+
+    function closeSideMenu () {
+      document.getElementById('side-menu').style.width= '0';
+    }
+   </script>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bella Olounje</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="/images/logo.png" alt="Logo" class="logo-image">
+    </div>
+
+    <ol>
+      <li class="first li">Home</li>
+      <li class="li">Product</li>
+      <li class="li">Faq</li>
+      <a href="#contact"><li>Contact</li></a>
+    </ol>
+
+    <span class="open-slide">
+      <a href="#" onclick="openSideMenu()">
+        <svg width="20" height="25">
+          <path d="M0,5 25,5" stroke="#737373" stroke-width="3"/>
+          <path d="M0,12 25,12" stroke="#737373" stroke-width="3"/>
+          <path d="M0,19 25,19" stroke="#737373" stroke-width="3"/>
+        </svg>
+      </a>
+    </span>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">Product</a>
+    <a href="#">Faqs</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <header>
+    <div class="header-paragraph">
+      <p class="paragraph-header">Food app</p>
+      <div class="paragraph-1">
+        Why stay hungry when <br> you can order form Bella Onojie
+      </div>
+      <p class="paragraph-2">
+        Download the bella onoje’s food app now on
+      </p>
+    </div>
+
+    <div class="header-button">
+      <div class="playstore">Playstore</div>
+      <div class="appstore">App Store</div>
+    </div>
+  </header>
+
+  <div class="bridge-image">
+    <div><img src="/images/Rectangle_mobile.png" alt="Front page" class="left-image"></div>
+    <div><img src="/images/Rectangle (1).png" alt="Home page" class="right-image"></div>
+  </div>
+
+  <div class="line">
+    <div style="width: 70%; border-bottom: 2px solid #E4E4E4;"></div>
+  </div>
+
+  <section class="content">
+    <div>
+      <h1>
+        How the app works
+      </h1>
+    </div>
+
+    <div class="content-body1">
+      <div class="div-image"><img src="/images/Rectangle (2).png" alt="Login Page" class="image"></div>
+      <div class="content-content">
+        <p class="content-header">Create an account</p>
+        <p class="body">
+          Create/login to an existing account to get started
+        </p>
+        <p class="sub-body">
+          An account is created with your email and a desired password
+        </p>
+      </div>
+    </div>
+
+    <div class="content-body2"> 
+      <div><img src="/images/Rectangle (3).png" alt="Login Page" class="image"></div>
+      <div class="content-content2">
+        <p class="content-header">Explore varieties</p>
+        <p class="body2">
+          Shop for your favorites meal as e dey hot.
+        </p>
+        <p class="sub-body">
+          Shop for your favorite meals or drinks and enjoy while doing it.
+        </p>
+      </div>
+    </div>
+
+        <div class="content-body1">
+      <div><img src="/images/Rectangle (4).png" alt="Login Page" class="image"></div>
+      <div class="content-content">
+        <p class="content-header">Check out</p>
+        <p class="body">
+          When you done check out and get it delivered.
+        </p>
+        <p class="sub-body">
+          When you done check out and get it delivered with ease.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-head">
+      <div class="footer-content">
+        <h3>Download the app now.</h3>
+        <p class="desktop">Available on your favorite store. Start your premium experience now</p>
+        <p class="mobile">Most calendars are designed for teams.</p>
+      </div>
+      <div class="footer-button">
+        <div class="footer-playstore desktop-button">Playstore</div>
+        <div class="footer-appstore desktop-button">App Store</div>
+        <div class="footer-playstore1 mobile-button">Buy Now</div>
+        <div class="footer-appstore1 mobile-button">Try For Free</div>
+      </div>
+    </div>
+
+    <div class="footer-tail">
+      <div class="footer-logo">
+        <img src="/images/logo.png" alt="Logo">
+      </div>
+      <div id="contact" class="footer-icon">
+        <a href=""><div><i class="fa fa-twitter" style="font-size:35px;color:red; margin-right: 30px"></i></div></i></a>
+        <a href=""><div class="icon"><i class="fa fa-facebook-square" style="font-size:35px;color:red; margin-right: 30px"></i></div></a>
+        <a href=""><div class="icon"><i class="fa fa-instagram" style="font-size:35px;color:red"></i></div></a>
+      </div>
+      <p>Copywright &copy;2020 Bella Onojie.com</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+   function openSideMenu () {
+      document.getElementById('side-menu').style.width= '8rem';
+   }
+        
+   function closeSideMenu () {
+      document.getElementById('side-menu').style.width= '0';
+    }
+  </script>
+</body>
+</html>

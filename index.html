@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="profile-card">
+    <!-- Profile Picture -->
+    <img src="Goodnews.jpg" alt="Profile Picture" data-testid="profilePicture" class="profile-picture">
+
+    <!-- Full Name -->
+    <h1 data-testid="fullName">Jesutofunmi Egbewale</h1>
+
+    <!-- Job Title -->
+    <h2 data-testid="jobTitle">Software Developer</h2>
+
+    <!-- Short Bio -->
+    <p data-testid="shortBio">
+      Passionate software engineer with 5+ years of experience in building scalable web applications. 
+      Skilled in JavaScript, React, and Node.js. Always eager to learn and contribute to innovative projects.
+    </p>
+
+    <!-- Current Location -->
+    <p data-testid="currentLocation">OAU Campus, Ile-Ife, Osun State, Nigeria.</p>
+
+    <!-- Email Address -->
+    <p data-testid="emailAddress">goodnewscode@gmail.com</p>
+
+    <!-- Social Links -->
+    <div data-testid="socialLinks" class="social-links">
+      <a href="https://www.linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+      <a href="https://github.com/johndoe" target="_blank">GitHub</a>
+      <a href="https://twitter.com/johndoe" target="_blank">Twitter</a>
+    </div>
+
+    <!-- Current Time in UTC -->
+    <p data-testid="currentTimeUTC">Current UTC Time: <span id="utcTime"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

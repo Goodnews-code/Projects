@@ -1,5 +1,7 @@
 # 🚀 Goodnews-code | Project Collection
 
+🔴 **Live Production:** [https://variety-projects.vercel.app/](https://variety-projects.vercel.app/)
+
 Welcome to my central project repository! This workspace serves as a curated collection of my web development projects, ranging from UI/UX implementations to internship task challenges.
 
 ---

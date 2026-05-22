@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  margin-right: 60px;
+  margin-top: 27px;
+}
+
+ul a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  color: #000000;
+  line-height: 29.38px;
+}
+
+.side-nav {
+  height: 70%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #21243d;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 4rem;
+  transition: 0.5s;
+}
+
+.side-nav a:hover {
+  background-color: #21243d;
+}
+
+.span {
+  background-color: #ff7c7c;
+  padding: 3px 10px;
+  border-radius: 15px;
+  font-size: 18px;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 900;
+  margin-right: 17px;
+}
+
+.works {
+  color: #ff6464;
+}
+
+.work-link {
+  text-decoration: none;
+}
+
+.h2-div {
+  display: flex;
+  /* align-items: center; */
+}
+
+footer {
+  padding: 1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.3rem;
+  padding-left: 2rem;
+}
+
+footer a {
+  margin-right: 2rem;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 20.56px;
+  color: #21243d;
+  padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 320px) {
+  nav ul {
+    display: none;
+  }
+
+  .open-slide {
+    position: absolute;
+    right: 7px;
+  }
+
+  .content {
+    padding: 4rem 1.5rem 5.2rem 1.5rem;
+    margin-top: 24px;
+  }
+
+  .content-body {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .inner-content {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  h1 {
+    color: #21243d;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .inner-content h2 {
+    font-size: 18px;
+    color: #21243d;
+    line-height: 30px;
+  }
+
+  .inner-content p {
+    color: #21243d;
+    font-size: 15px;
+    line-height: 23.5px;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .side-nav a {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .image {
+    margin-top: 27px;
+    width: 0%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 3rem;
+  }
+
+  .open-slide {
+    display: none;
+  }
+
+  .content {
+    margin-top: 6rem;
+    padding: 0 5.69rem 5.81rem 5.69rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .content-body {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+
+  .content-img {
+    padding: 2rem 0 2rem 2rem;
+  }
+
+  .inner-content {
+    width: 100%;
+    margin-left: 2rem;
+  }
+
+  h1 {
+    color: #21243d;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 35px;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .inner-content h2 {
+    font-size: 18px;
+    color: #21243d;
+    line-height: 29.38px;
+  }
+
+  .h2-div {
+    display: flex;
+    align-items: center;
+  }
+
+  .inner-content p {
+    color: #21243d;
+    font-size: 16px;
+    line-height: 23.5px;
+    font-weight: 400;
+    padding-right: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    color: #21243d;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 35px;
+    width: 80%;
+  }
+
+  .content {
+    margin-top: 8.75rem;
+    padding: 0 17.69rem 6.81rem 17.69rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-body {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .h2-div {
+    display: flex;
+    align-items: center;
+  }
+
+  .inner-content p {
+    color: #21243d;
+    font-size: 16px;
+    line-height: 23.5px;
+    font-weight: 400;
+    padding-right: 2rem;
+    width: 75%;
+    margin-top: 1rem;
+  }
+
+  .content-img {
+    padding: 2rem 0 2rem 2rem;
+  }
+
+  .img {
+    width: 100%;
+  }
+}

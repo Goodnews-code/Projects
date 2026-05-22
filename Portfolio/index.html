@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="https://kit.fontawesome.com/235f63f712.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <a href="/index.html"><li>Home</li></a>
+      <a href="/work.html"><li>Works</li></a>
+      <a href="/Blog.html"><li>Blog</li></a>
+      <a href="#contact"><li>Contact</li></a>
+    </ul>
+
+    <span class="open-slide">
+      <a href="#" onclick="openSideMenu()">
+        <svg width="30" height="25">
+          <path d="M0,5 30,5" stroke="#21243d" stroke-width="5"/>
+          <path d="M0,14 30,14" stroke="#21243d" stroke-width="5"/>
+          <path d="M0,23 30,23" stroke="#21243d" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+  </nav>
+  
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+    <a href="/index.html">Home</a>
+    <a href="/Blog.html">Blog</a>
+    <a href="/work.html">Works</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+ <section class="section-div">
+    <div class="hero-container">
+      <div class="hero-left">
+        <h1>
+          Hi, I am Jesutofunmi, Web Developer
+        </h1>
+        <p>
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+          Velit officia consequat duis enim velit mollit. 
+          Exercitation veniam consequat sunt nostrud amet.
+        </p>
+        <button>Download Resume</button>
+      </div>
+
+      <div class="hero-right">
+          <img src="image/My Image.png" alt="My Image">
+      </div>
+    </div>
+
+    <div class="article-div">
+      <div class="article-nav">
+        <h2 class="left-header">Recent Posts</h2>
+        <a href="/Blog.html"><h2 class="right-header">View all</h2></a>
+      </div>
+      <div class="article-body">
+        <article class="article">
+          <h3>
+            Making a design system from scratch
+          </h3>
+          <h4>01 November 2024 &nbsp; &#124 &nbsp; Design, Pattern</h4>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+            Velit officia consequat duis enim velit mollit. 
+            Exercitation veniam consequat sunt nostrud amet.
+          </p>
+        </article>
+    
+        <article class="article">
+          <h3>
+            Creating pixel perfect icons in Figma
+          </h3>
+          <h4>01 November 2024 &nbsp; &#124 &nbsp; Figma, Icon Design</h4>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+            Velit officia consequat duis enim velit mollit. 
+            Exercitation veniam consequat sunt nostrud amet.
+          </p>
+        </article>
+      </div>
+    </div>
+    
+    <section class="featured-works">
+      <div class="heading">
+        <h2>Featured Works</h2>
+      </div>  
+      <a href="/work-detail.html" class="work-link">
+        <div class="body">
+          <div class="content">
+            <img src="image/Rectangle 30.png" alt="Design project" class="img">
+            <div class="inner-content">
+              <h3>Designing Dashboards</h3>
+              <h4><span>2020</span> Dashboard</h4>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+      </a>
+        <div style="width: 100%; border-bottom: 1px solid #E0E0E0;"></div>
+
+        <div class="content hide-works">
+          <img src="image/Rectangle 32.png" alt="Design project" class="img">
+          <div class="inner-content">
+            <h3>Vibrant Portraits of 2020</h3>
+            <h4><span>2018</span> Illustration</h4>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+              Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+        <div style="width: 100%; border-bottom: 1px solid #E0E0E0;"></div>
+
+        <div class="content hide-works">
+          <img src="image/Rectangle 34.png" alt="Design project" class="img">
+          <div class="inner-content">
+            <h3>36 Days of Malayalam type</h3>
+            <h4><span>2018</span> Typography</h4>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+              Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+        <div style="width: 100%; border-bottom: 1px solid #E0E0E0;"></div>
+      </div>
+  </section>
+ </section>
+ 
+
+  <footer id="contact">
+    <div class="footer">
+      <a href=""><img src="image/fb.png" alt="Facebook icon"></a>
+      <a href=""><img src="image/insta.png" alt="Instagram icon"></a>
+      <a href=""><img src="image/Group.png" alt="X icon"></a>
+      <a href=""><img src="image/Linkedin.png" alt="Linkedin icon"></a>
+    </div>
+    <p>Copyright &copy;2024 All rights reserved </p>
+  </footer>
+
+        <!-- JavaScript -->
+   <script>
+    function openSideMenu () {
+      document.getElementById('side-menu').style.width= '8rem';
+    }
+
+    function closeSideMenu () {
+      document.getElementById('side-menu').style.width= '0';
+    }
+   </script>
+</body>
+</html>

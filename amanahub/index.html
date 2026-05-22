@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>amanahub</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="image/Logo.png" alt="amanahub Image">
+        
+      <ol>
+        <li>Home</li>
+        <li>Pricing</li>
+        <li>Portfolio</li>
+        <li>Contact us</li>
+      </ol>
+
+      <button>Get started</button>
+
+      <span class="open-slide">
+        <a href="#" onclick="openSideMenu()">
+          <svg width="30" height="25">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+          </svg>
+        </a>
+      </span>
+    </nav>
+
+    <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">Pricing</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+  
+    <div class="header-body">
+      <p>
+        Grow your business with digital marketing
+      </p>
+
+      <img src="image/Underline_02.png" alt="Middle Line">
+
+      <div class="inner-body">
+        <div class="get-started">Get Started</div>
+        <img src="image/Audio player.png" alt="Audio player">
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <!-- Bridge Image -->
+  <div class="bridge-header">
+    <img src="image/header_image.png" alt="Group Discussion" class="header-image">
+  </div>
+
+
+
+
+  <section class="services">
+    <div class="services-div">
+      <div class="services-header">
+        <h2 class="services-header-text1">OUR SERVICES</h2> 
+        <h3 class="services-header-text2">What we do</h3>
+      </div>
+  
+      <div class="services-body">
+        <div class="services-button">
+          <div class="services-subtopic">Grow your business</div>
+          <article class="services-inner-body">
+            We have a team of professionals who
+            help you to grow your business and also
+            collaborate with you
+          </article>
+        </div>
+  
+        <div class="services-button">
+            <div>
+              <p class="services-subtopic">Best tools</p>
+              <article class="services-inner-body">
+              We use the best tools to help you drive
+              more sales for your business
+              </article>
+            </div>
+        </div>
+  
+        <div class="services-button">
+          <div>
+            <p class="services-subtopic">Drive more sales</p>
+            <article class="services-inner-body">
+              We use the best tools to help you drive
+              more sales for your business
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+
+  <section class="Offer">
+    <div class="offer-header">
+      <div class="offer-offer">
+        <img src="image/Offer_image.png" alt="Offer_image" class="offer-image">
+      </div>
+      
+      <div class="offer-body">
+        <p class="offer-body1">We offer the best services
+          to grow your business
+        </p>
+
+        <article class="offer-body2">
+          We have a team of professionals who can help you to grow your business
+          and also collaborate with you
+        </article>
+
+        <div class="offer-button-container">
+          <button class="offer-button">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="testimonials">
+
+   <div class="testimonial-content">
+      <div class="testimonial-inner-head">
+        <p class="testimonial-text-header">TESTIMONIALS</p>
+        <p class="testimonial-text-subheader">Our client words</p>
+      </div>
+
+      <div class="testimonial-body">
+    
+        <div class="testimonial-button">
+          <img src="image/Star-5.png" alt="5 Star of Testimonty" class="testimonial-star">
+
+          <div class="testimonial-button-intro">
+            <img src="image/testimoni.png" alt="Testimony Image">
+            <div class="testimonial-button-name">
+              <p class="testimonial-name">Paul Samson </p>
+              <span class="testimonial-profession">Actor</span>
+            </div>
+
+            <p class="testimonial-quote">"</p>
+          </div>
+
+          <div class="testimonial-body-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Officia atque totam voluptatem eveniet quam voluptate excepturi.
+            eligendi sed corrupti nisi, omnis ratione aut provident molestias.
+            eos. Eos fuga in distinctio!
+          </div>
+        </div>
+
+
+        <div class="testimonial-button">
+          <img src="image/Star-5.png" alt="5 Star of Testimonty" class="testimonial-star">
+
+          <div class="testimonial-button-intro">
+            <img src="image/testimoni.png" alt="Testimony Image">
+            <div class="testimonial-button-name">
+              <p class="testimonial-name">Paul Samson </p>
+              <span class="testimonial-profession">Actor</span>
+            </div>
+
+            <p class="testimonial-quote">"</p>
+          </div>
+
+          <div class="testimonial-body-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Officia atque totam voluptatem eveniet quam voluptate excepturi.
+            eligendi sed corrupti nisi, omnis ratione aut provident molestias.
+            eos. Eos fuga in distinctio!
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-footer">
+        <div class="testimonial-footer-shape"></div>
+        <div class="testimonial-footer-shapeb"></div>
+        <div class="testimonial-footer-shapeb"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    AmanaHub 2022
+  </footer>
+
+  <!-- JavaScript -->
+   <script>
+    function openSideMenu () {
+      document.getElementById('side-menu').style.width= '8rem';
+    }
+
+    function closeSideMenu () {
+      document.getElementById('side-menu').style.width= '0';
+    }
+   </script>
+</body>
+</html>

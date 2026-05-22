@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work Detail</title>
+  <link rel="stylesheet" href="/css/work-detail_style.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <a href="/index.html"><li>Home</li></a>
+        <a href="/work.html" class="works"><li>Works</li></a>
+        <a href="/Blog.html"><li>Blog</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+    </nav>
+
+    <span class="open-slide">
+      <a href="#" onclick="openSideMenu()">
+        <svg width="30" height="25">
+          <path d="M0,5 30,5" stroke="#21243d" stroke-width="5"/>
+          <path d="M0,14 30,14" stroke="#21243d" stroke-width="5"/>
+          <path d="M0,23 30,23" stroke="#21243d" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+    <a href="/index.html">Home</a>
+    <a href="/Blog.html">Blog</a>
+    <a href="/work.html">Works</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="content">
+    <div class="content-body">
+      <div class="content-img">
+       <img src="image/Rectangle 42.png" alt="Dashboard Screenshot" class="img">
+      </div>
+      <div class="inner-content">
+        <h1>Designing Dashboards with usability in mind</h1>
+        <div class="h2-div">
+          <div>
+            <span class="span">2020</span>
+          </div>
+          <div>
+            <h2 class="span-h2">Dashboard, User Experience Design</h2>
+          </div>
+        </div>
+        <p>
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+          Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+   </div>
+
+    <div class="content-body">
+      <div class="content-img">
+        <img src="image/Rectangle 38.png" alt="Moving car" class="img">        
+      </div>
+      <div class="inner-content">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <p>
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+          Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+   </div>
+    <div class="content-img">
+      <img src="/image/Rectangle 44.png" alt="order-process" class="img">
+    </div>
+  </div>
+
+  <footer>
+    <div id="contact" class="footer">
+      <a href=""><img src="image/fb.png" alt="Facebook icon"></a>
+      <a href=""><img src="image/insta.png" alt="Instagram icon"></a>
+      <a href=""><img src="image/Group.png" alt="X icon"></a>
+      <a href=""><img src="image/Linkedin.png" alt="Linkedin icon"></a>
+    </div>
+    <p>Copyright &copy;2024 All rights reserved </p>
+  </footer>
+
+    <!-- JavaScript -->
+ <script>
+  function openSideMenu () {
+    document.getElementById('side-menu').style.width= '8rem';
+  }
+
+  function closeSideMenu () {
+    document.getElementById('side-menu').style.width= '0';
+  }
+ </script>
+</body>
+</html>
